@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module2"
 Sub Stock_all_Sheets()
     
     Dim ws As Worksheet
