@@ -43,15 +43,7 @@ Sub Stock_all_Sheets()
     ws.Range("J1").Value = "Yearly Change"
     ws.Range("K1").Value = "Percent Change"
     ws.Range("L1").Value = "Total Volume"
-    
-    ' Setting Additional Titles for new Summary Table for the Bonus part of the assignment
-    
-    ws.Range("O2").Value = "Highest % Increased"
-    ws.Range("O3").Value = "Lowest % Decreased"
-    ws.Range("O4").Value = "Highest Volume"
-    ws.Range("P1").Value = "Ticker"
-    ws.Range("Q1").Value = "Values"
-    
+       
     ' Setting Open Price for the first Ticker.
     ' Rest of the ticker's open price are initialized inside the for loop
     
